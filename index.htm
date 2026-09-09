@@ -10,25 +10,26 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.65;
-            color: #333;
+            color: #2f3a32;
             max-width: 850px;
             margin: 0 auto;
             padding: 30px 20px;
+            background: #ffffff;
         }
 
         h1 {
-            color: #2c3e50;
+            color: #2f6b3c;
         }
 
         h2 {
-            color: #34495e;
-            border-bottom: 2px solid #ecf0f1;
+            color: #386f43;
+            border-bottom: 2px solid #e3eee5;
             padding-bottom: 5px;
             margin-top: 35px;
         }
 
         h3 {
-            color: #2980b9;
+            color: #478255;
             margin-bottom: 5px;
             margin-top: 25px;
         }
@@ -42,13 +43,13 @@
         }
 
         code {
-            background: #f5f5f5;
+            background: #f2f6f2;
             padding: 2px 5px;
             border-radius: 4px;
         }
 
         a {
-            color: #3498db;
+            color: #2f7b45;
             text-decoration: none;
         }
 
@@ -57,14 +58,22 @@
         }
 
         .date {
-            color: #7f8c8d;
+            color: #718074;
             font-style: italic;
             margin-bottom: 40px;
         }
 
         .important {
-            background: #f7f9fa;
-            border-left: 4px solid #3498db;
+            background: #f3f8f3;
+            border-left: 4px solid #4c985d;
+            padding: 12px 16px;
+            margin: 20px 0;
+        }
+
+        .note {
+            background: #fafcf9;
+            border: 1px solid #e1ebe2;
+            border-radius: 8px;
             padding: 12px 16px;
             margin: 20px 0;
         }
@@ -73,459 +82,577 @@
 
 <body>
 
-    <h1>Politique de confidentialité — Karbu France</h1>
+<h1>Politique de confidentialité — Karbu France</h1>
 
-    <p class="date">
-        Dernière mise à jour : 7 septembre 2026
-    </p>
-
-
-    <h2>1. Éditeur</h2>
-
-    <p>
-        L'application <strong>Karbu France</strong> est développée et maintenue par
-        <strong>Pixelcaux</strong>, entreprise individuelle située en France.
-    </p>
-
-    <p>
-        Pour toute question concernant la confidentialité ou l'utilisation de vos données :
-        <a href="mailto:contact@pixelcaux.com">contact@pixelcaux.com</a>
-    </p>
+<p class="date">
+    Dernière mise à jour : 9 septembre 2026
+</p>
 
 
-    <h2>2. Principes généraux</h2>
+<h2>1. Éditeur et responsable</h2>
 
-    <p>
-        Karbu France limite le traitement des données aux informations nécessaires au
-        fonctionnement de l'application, à l'affichage des publicités et, lorsque
-        l'utilisateur y consent, à la mesure statistique de l'utilisation de l'application.
-    </p>
+<p>
+    L'application <strong>Karbu France</strong> est éditée et maintenue par
+    <strong>[NOM LÉGAL À COMPLÉTER]</strong>, entrepreneur individuel exerçant
+    sous le nom commercial <strong>Pixelcaux</strong>, en France.
+</p>
 
-    <p>
-        Karbu France ne nécessite pas la création d'un compte utilisateur et ne demande
-        directement ni votre nom, ni votre prénom, ni votre adresse e-mail, ni votre
-        numéro de téléphone pour utiliser les fonctionnalités principales de l'application.
-    </p>
-
-
-    <h2>3. Localisation géographique</h2>
-
-    <p>
-        Karbu France peut accéder à la position précise de votre appareil lorsque vous
-        autorisez la géolocalisation Android.
-    </p>
-
-    <p>
-        Cette position est utilisée pour rechercher les stations-service à proximité
-        et fournir certaines fonctionnalités liées aux trajets et à la Surveillance carburant.
-    </p>
-
-    <p>
-        Selon la fonctionnalité utilisée, les coordonnées nécessaires peuvent être
-        transmises aux services suivants :
-    </p>
-
-    <ul>
-        <li>
-            <strong>data.economie.gouv.fr</strong>, pour certaines recherches liées
-            aux données officielles des stations-service ;
-        </li>
-
-        <li>
-            des serveurs <strong>OpenStreetMap Overpass</strong>
-            (<code>overpass-api.de</code>,
-            <code>overpass.kumi.systems</code> et
-            <code>overpass.openstreetmap.fr</code>)
-            pour rechercher certaines stations et certains points d'intérêt à proximité ;
-        </li>
-
-        <li>
-            <strong>router.project-osrm.org</strong> pour le calcul de certains itinéraires.
-        </li>
-    </ul>
-
-    <p>
-        Lorsqu'une ville ou une adresse est saisie manuellement, cette recherche peut
-        être transmise à <strong>nominatim.openstreetmap.org</strong> afin d'obtenir
-        les coordonnées géographiques correspondantes.
-    </p>
-
-    <h3>Surveillance carburant</h3>
-
-    <p>
-        Lorsque la fonction <strong>Surveillance carburant</strong> est activée,
-        Karbu France conserve localement sur votre appareil la latitude et la longitude
-        du centre de la zone choisie afin d'effectuer les vérifications périodiques demandées.
-    </p>
-
-    <p>
-        Cette position est supprimée lorsque vous désactivez la Surveillance carburant.
-        Elle n'est pas utilisée pour constituer un historique continu de vos déplacements.
-    </p>
-
-    <div class="important">
-        <strong>Important :</strong> votre position GPS précise (latitude et longitude)
-        n'est jamais envoyée à Firebase Analytics.
-    </div>
-
-    <p>
-        Aucun paramètre GPS n'est explicitement transmis à Google AdMob par le code
-        de Karbu France.
-    </p>
-
-    <p>
-        Vous pouvez retirer l'autorisation Android de géolocalisation à tout moment.
-        Certaines fonctionnalités dépendant de votre position pourront alors être limitées.
-    </p>
+<p>
+    Pour toute question concernant cette politique ou la protection de vos données :
+    <a href="mailto:contact@pixelcaux.com">contact@pixelcaux.com</a>
+</p>
 
 
-    <h2>4. Statistiques d'utilisation — Firebase Analytics</h2>
+<h2>2. Principes généraux</h2>
 
-    <p>
-        Avec votre consentement, Karbu France utilise
-        <strong>Google Analytics for Firebase</strong>, un service fourni par Google,
-        afin de comprendre de manière agrégée comment l'application est utilisée et
-        d'améliorer ses fonctionnalités.
-    </p>
+<p>
+    Karbu France est conçue pour fonctionner sans création de compte utilisateur.
+</p>
 
-    <p>
-        La collecte Analytics est <strong>désactivée par défaut</strong>.
-        Elle n'est activée qu'après votre accord.
-    </p>
+<p>
+    L'application ne demande pas votre nom, votre prénom, votre adresse e-mail
+    ou votre numéro de téléphone pour utiliser ses fonctionnalités principales.
+</p>
 
-    <p>
-        Vous pouvez refuser Firebase Analytics sans perdre l'accès aux fonctionnalités
-        principales de Karbu France.
-    </p>
+<p>
+    Les traitements réalisés par l'application sont limités à ce qui est nécessaire :
+</p>
 
-    <p>
-        Vous pouvez modifier votre choix ultérieurement depuis :
-        <strong>Paramètres → Statistiques d'utilisation</strong>.
-    </p>
-
-
-    <h3>Données et événements susceptibles d'être mesurés</h3>
-
-    <p>
-        Lorsque Firebase Analytics est accepté, Karbu France peut mesurer notamment :
-    </p>
-
-    <ul>
-        <li>les ouvertures et sessions de l'application ;</li>
-        <li>les écrans consultés ;</li>
-        <li>les recherches de stations ;</li>
-        <li>le nombre approximatif de résultats trouvés ;</li>
-        <li>l'ouverture d'une fiche station ;</li>
-        <li>le lancement d'une navigation vers une station ;</li>
-        <li>l'utilisation de certaines fonctionnalités comme les favoris ;</li>
-        <li>le résultat de la demande d'autorisation de localisation ;</li>
-        <li>certaines erreurs techniques classées par catégorie ;</li>
-        <li>
-            des informations techniques telles que la version de l'application,
-            le système d'exploitation ou le modèle de l'appareil.
-        </li>
-    </ul>
-
-    <p>
-        Firebase Analytics utilise également des identifiants techniques propres à
-        l'installation de l'application afin de distinguer les installations et les sessions.
-    </p>
-
-    <p>
-        Google peut également déterminer une zone géographique approximative à partir
-        des informations réseau nécessaires à la communication avec ses services.
-    </p>
+<ul>
+    <li>au fonctionnement des cartes et des fonctions de recherche ;</li>
+    <li>à l'affichage des stations-service et des bornes électriques ;</li>
+    <li>au calcul de certains itinéraires ;</li>
+    <li>à la Surveillance carburant lorsqu'elle est activée ;</li>
+    <li>à l'affichage des publicités ;</li>
+    <li>
+        et, uniquement lorsque vous l'acceptez, aux statistiques d'utilisation
+        destinées à la maintenance et à l'amélioration de Karbu France.
+    </li>
+</ul>
 
 
-    <h3>Données volontairement exclues de Firebase Analytics</h3>
+<h2>3. Cartes, localisation et services fonctionnels</h2>
 
-    <p>
-        Karbu France n'envoie pas à Firebase Analytics :
-    </p>
+<h3>Fond cartographique local</h3>
 
-    <ul>
-        <li>votre latitude GPS précise ;</li>
-        <li>votre longitude GPS précise ;</li>
-        <li>votre adresse exacte ;</li>
-        <li>la ville ou l'adresse saisie lors d'une recherche ;</li>
-        <li>un historique de vos déplacements ;</li>
-        <li>votre nom ou prénom ;</li>
-        <li>votre adresse e-mail ;</li>
-        <li>votre numéro de téléphone ;</li>
-        <li>du texte libre permettant de vous identifier ;</li>
-        <li>un identifiant précis de station à des fins de profilage.</li>
-    </ul>
+<p>
+    Le fond principal utilisé dans les cartes <strong>Carburants</strong>,
+    <strong>Bornes électriques</strong> et <strong>Itinéraire</strong>
+    est généré à l'avance et embarqué localement dans l'application.
+</p>
 
+<p>
+    Il utilise notamment des données issues de :
+</p>
 
-    <h3>Identifiant publicitaire</h3>
+<ul>
+    <li><strong>IGN ROUTE500</strong> pour le réseau routier et certaines données géographiques ;</li>
+    <li><strong>Natural Earth</strong> pour certains contours et noms de localités.</li>
+</ul>
 
-    <p>
-        La collecte de l'identifiant publicitaire Android est désactivée pour
-        <strong>Firebase Analytics</strong> dans Karbu France.
-    </p>
+<p>
+    Le fond local comprend notamment les routes, certaines villes et localités,
+    ainsi que des zones d'eau et des zones forestières.
+</p>
 
-    <p>
-        Les données Firebase Analytics ne sont pas utilisées par Karbu France pour
-        la personnalisation publicitaire ou le remarketing.
-    </p>
-
-    <p>
-        Cette configuration Analytics est distincte du fonctionnement de Google AdMob,
-        décrit ci-dessous.
-    </p>
+<div class="important">
+    Le fond cartographique principal de Karbu France n'utilise pas de tuiles
+    cartographiques externes lors de son affichage.
+</div>
 
 
-    <h3>Durée de conservation Analytics</h3>
+<h3>Utilisation de la position</h3>
 
-    <p>
-        La durée de conservation des données utilisateur et des données d'événement
-        détaillées dans Google Analytics est configurée sur
-        <strong>2 mois</strong>.
-    </p>
+<p>
+    Karbu France peut accéder à la position de votre appareil lorsque vous
+    autorisez la géolocalisation Android et utilisez une fonction qui en a besoin.
+</p>
+
+<p>
+    Cette position peut notamment servir à :
+</p>
+
+<ul>
+    <li>afficher les stations-service proches ;</li>
+    <li>afficher les bornes de recharge proches ;</li>
+    <li>centrer la carte autour de votre position ;</li>
+    <li>calculer certains itinéraires ;</li>
+    <li>définir une zone pour la Surveillance carburant.</li>
+</ul>
+
+<p>
+    Vous pouvez retirer l'autorisation Android de géolocalisation à tout moment.
+    Certaines fonctions dépendant de la position pourront alors être limitées.
+</p>
 
 
-    <h2>5. Publicités — Google AdMob</h2>
+<h3>Services fonctionnels pouvant recevoir une position ou une recherche</h3>
 
-    <p>
-        Karbu France utilise <strong>Google AdMob</strong> pour afficher des publicités.
-    </p>
+<p>
+    Selon la fonction utilisée, les informations strictement nécessaires à la
+    recherche demandée peuvent être transmises aux services suivants :
+</p>
 
-    <p>
-        Google AdMob peut traiter certaines données techniques nécessaires à la diffusion,
-        à la mesure, à la sécurité et à la prévention de la fraude publicitaire.
-    </p>
+<ul>
+    <li>
+        <strong>data.economie.gouv.fr</strong>, pour certaines recherches et
+        données officielles relatives aux stations-service ;
+    </li>
 
-    <p>
-        Lorsque la réglementation applicable l'exige, un formulaire de consentement
-        Google est présenté à l'utilisateur via la plateforme
-        <strong>User Messaging Platform (UMP)</strong>.
-    </p>
+    <li>
+        des serveurs <strong>OpenStreetMap Overpass</strong>
+        (<code>overpass-api.de</code>,
+        <code>overpass.kumi.systems</code> et
+        <code>overpass.openstreetmap.fr</code>)
+        pour certaines recherches géographiques, notamment de stations
+        ou de bornes électriques ;
+    </li>
 
-    <p>
-        Selon vos choix, Google peut diffuser des publicités personnalisées,
-        non personnalisées ou limitées.
-    </p>
+    <li>
+        <strong>nominatim.openstreetmap.org</strong>, lorsqu'une ville ou une
+        adresse est recherchée manuellement afin d'obtenir ses coordonnées ;
+    </li>
 
-    <p>
-        Vous pouvez modifier ultérieurement vos préférences publicitaires depuis
-        la rubrique <strong>Confidentialité publicitaire</strong> de Karbu France,
-        lorsque cette option est requise et disponible via UMP.
-    </p>
+    <li>
+        <strong>router.project-osrm.org</strong>, pour le calcul de certains itinéraires ;
+    </li>
 
-    <p>
-        Le consentement relatif aux publicités AdMob est indépendant du consentement
-        donné pour Firebase Analytics.
-    </p>
+    <li>
+        Google Maps ou Waze lorsque vous choisissez volontairement de lancer
+        une navigation externe vers une destination.
+    </li>
+</ul>
 
-    <p>
-        Pour plus d'informations sur la manière dont Google traite les données :
+<p>
+    Une coordonnée, une ville ou une adresse utilisée pour fournir ces fonctions
+    n'est pas automatiquement considérée comme votre position physique :
+    elle peut également correspondre à une zone que vous choisissez volontairement
+    de consulter.
+</p>
+
+
+<h3>Surveillance carburant</h3>
+
+<p>
+    Lorsque vous activez la <strong>Surveillance carburant</strong>,
+    Karbu France conserve localement une zone fixe choisie par vous afin de
+    vérifier périodiquement les prix correspondants.
+</p>
+
+<p>
+    Cette fonction ne réalise pas un suivi continu de vos déplacements.
+</p>
+
+<p>
+    Lorsque la Surveillance carburant est désactivée, la configuration privée
+    de la zone utilisée par cette fonction est supprimée conformément au
+    fonctionnement de l'application.
+</p>
+
+
+<h2>4. Statistiques d'utilisation — Firebase Analytics</h2>
+
+<p>
+    Karbu France utilise <strong>Google Analytics for Firebase</strong>
+    uniquement lorsque vous acceptez les statistiques d'utilisation.
+</p>
+
+<p>
+    Cette mesure sert à comprendre si les grandes fonctions de l'application
+    sont utilisées, à détecter certaines erreurs et à améliorer Karbu France.
+</p>
+
+<div class="important">
+    La collecte Firebase Analytics est désactivée par défaut et n'est activée
+    qu'après votre accord.
+</div>
+
+<p>
+    Vous pouvez refuser ces statistiques sans perdre l'accès aux fonctionnalités
+    principales de l'application.
+</p>
+
+<p>
+    Votre choix peut être modifié ultérieurement depuis la rubrique
+    <strong>Confidentialité → Statistiques d'utilisation</strong>.
+</p>
+
+
+<h3>Ce qui peut être mesuré</h3>
+
+<p>
+    Lorsque les statistiques sont acceptées, Karbu France peut notamment mesurer :
+</p>
+
+<ul>
+    <li>les premières ouvertures et les sessions de l'application ;</li>
+    <li>l'utilisation de la carte Carburants ;</li>
+    <li>l'affichage effectif de prix de carburant ;</li>
+    <li>les recherches, résultats et erreurs sous forme de catégories ;</li>
+    <li>l'ouverture d'une fiche station ;</li>
+    <li>le lancement d'une navigation ;</li>
+    <li>l'utilisation des favoris ;</li>
+    <li>l'activation ou la désactivation de la Surveillance carburant ;</li>
+    <li>l'ouverture de la partie Bornes électriques ;</li>
+    <li>l'affichage effectif de bornes électriques ;</li>
+    <li>les recherches de bornes et l'ouverture d'une borne ;</li>
+    <li>le lancement d'une navigation vers une borne ;</li>
+    <li>
+        certaines erreurs techniques uniquement sous forme de catégories
+        prédéfinies ;
+    </li>
+    <li>
+        certaines informations techniques nécessaires au fonctionnement
+        d'Analytics, comme la version de l'application, le système
+        d'exploitation ou des informations relatives aux sessions.
+    </li>
+</ul>
+
+
+<h3>Données volontairement exclues des événements Analytics Karbu France</h3>
+
+<p>
+    Karbu France ne crée aucun <code>user_id</code> applicatif pour Firebase Analytics.
+</p>
+
+<p>
+    Karbu France n'ajoute pas volontairement aux événements Analytics personnalisés :
+</p>
+
+<ul>
+    <li>votre nom ou prénom ;</li>
+    <li>votre adresse e-mail ;</li>
+    <li>votre numéro de téléphone ;</li>
+    <li>un identifiant de compte utilisateur ;</li>
+    <li>un <code>user_id</code> créé par Karbu France ;</li>
+    <li>votre latitude ou longitude GPS ;</li>
+    <li>une ville ;</li>
+    <li>une adresse ;</li>
+    <li>un code postal ;</li>
+    <li>le texte saisi lors d'une recherche ;</li>
+    <li>le nom, l'adresse ou l'identifiant d'une station-service ;</li>
+    <li>le nom, l'adresse ou l'identifiant d'une borne électrique ;</li>
+    <li>l'origine ou la destination précise d'un itinéraire ;</li>
+    <li>une URL complète ;</li>
+    <li>du texte libre utilisateur ;</li>
+    <li>le contenu brut d'une exception ou d'une erreur technique.</li>
+</ul>
+
+<p>
+    Les informations mesurées par Karbu France utilisent autant que possible des
+    catégories limitées, par exemple une tranche de nombre de résultats ou une
+    catégorie d'erreur, plutôt qu'une information précise.
+</p>
+
+
+<h3>Identifiants techniques Firebase</h3>
+
+<p>
+    Firebase Analytics peut utiliser ses propres identifiants techniques liés à
+    l'installation de l'application afin de distinguer des installations,
+    sessions et utilisateurs revenant.
+</p>
+
+<p>
+    Ces identifiants techniques ne sont pas un compte utilisateur créé par Karbu France
+    et ne nécessitent pas que vous fournissiez votre identité.
+</p>
+
+<p>
+    Google peut également recevoir les informations réseau nécessaires à la
+    communication avec ses services et en déduire, selon son fonctionnement,
+    une zone géographique approximative.
+</p>
+
+
+<h3>Identifiant publicitaire</h3>
+
+<p>
+    La collecte de l'identifiant publicitaire Android est désactivée pour
+    <strong>Firebase Analytics</strong> dans Karbu France.
+</p>
+
+<p>
+    Karbu France n'utilise pas ses événements Firebase Analytics personnalisés
+    pour du remarketing ou pour créer un profil publicitaire de ses utilisateurs.
+</p>
+
+<p>
+    Le fonctionnement de Firebase Analytics est distinct de celui de
+    Google AdMob décrit ci-dessous.
+</p>
+
+
+<h3>Conservation Analytics</h3>
+
+<p>
+    Pixelcaux configure les données Analytics avec une durée de conservation
+    limitée au nécessaire pour mesurer et améliorer l'application.
+</p>
+
+<p>
+    Les paramètres de conservation sont gérés depuis la propriété Google Analytics
+    utilisée par Karbu France.
+</p>
+
+
+<h2>5. Publicités — Google AdMob et UMP</h2>
+
+<p>
+    Karbu France utilise <strong>Google AdMob</strong> pour afficher des
+    bandeaux publicitaires et des publicités interstitielles.
+</p>
+
+<p>
+    Google AdMob peut traiter certaines informations techniques nécessaires
+    à la diffusion des publicités, à leur mesure, à la sécurité et à la
+    prévention de la fraude.
+</p>
+
+<p>
+    Lorsque la réglementation applicable l'exige, Google
+    <strong>User Messaging Platform (UMP)</strong> permet de présenter et
+    gérer les choix de confidentialité relatifs à la publicité.
+</p>
+
+<p>
+    Selon les choix et les paramètres applicables, Google peut proposer
+    différents modes de diffusion publicitaire.
+</p>
+
+<p>
+    Lorsque Google UMP indique que des options de confidentialité doivent être
+    proposées, elles sont accessibles depuis la rubrique
+    <strong>Confidentialité publicitaire</strong> de l'application.
+</p>
+
+<div class="important">
+    Les choix relatifs aux publicités AdMob sont distincts du choix concernant
+    les statistiques Firebase Analytics.
+</div>
+
+<p>
+    Karbu France n'ajoute pas volontairement votre position GPS précise
+    aux demandes publicitaires via son propre code.
+</p>
+
+<p>
+    Pour plus d'informations sur les traitements réalisés par Google :
+    <a href="https://policies.google.com/privacy"
+       target="_blank"
+       rel="noopener noreferrer">
+        Politique de confidentialité de Google
+    </a>.
+</p>
+
+
+<h2>6. Stockage local</h2>
+
+<p>
+    Karbu France conserve localement sur votre appareil certaines informations
+    nécessaires à son fonctionnement, notamment :
+</p>
+
+<ul>
+    <li>les réglages de l'application ;</li>
+    <li>les préférences de langue et d'affichage ;</li>
+    <li>les favoris ;</li>
+    <li>certaines informations liées au profil véhicule ;</li>
+    <li>certaines estimations d'économies ;</li>
+    <li>certains historiques locaux nécessaires aux fonctions de l'application ;</li>
+    <li>l'état de certains choix de confidentialité ;</li>
+    <li>la configuration de la Surveillance carburant lorsqu'elle est active.</li>
+</ul>
+
+<p>
+    Ces informations locales ne sont pas automatiquement transmises à Firebase Analytics.
+</p>
+
+<p>
+    Les mécanismes de sauvegarde ou de transfert Android peuvent, selon les paramètres
+    du système et les règles de l'application, concerner certaines données locales.
+</p>
+
+<p>
+    Les données privées utilisées pour la zone précise de Surveillance carburant
+    disposent de protections spécifiques prévues par l'application.
+</p>
+
+
+<h2>7. Conservation et sécurité</h2>
+
+<p>
+    Pixelcaux applique un principe de minimisation : les informations traitées
+    sont limitées à ce qui est nécessaire au fonctionnement, à la maintenance,
+    aux statistiques facultatives ou à la monétisation de Karbu France.
+</p>
+
+<p>
+    Les communications réseau explicitement utilisées par l'application pour
+    ses fonctions principales utilisent des connexions sécurisées HTTPS.
+</p>
+
+<p>
+    Les services tiers utilisés par l'application peuvent appliquer leurs propres
+    règles et durées de conservation conformément à leurs politiques,
+    obligations légales et configurations.
+</p>
+
+
+<h2>8. Vos droits et vos choix</h2>
+
+<p>
+    Conformément à la réglementation applicable, notamment au Règlement général
+    sur la protection des données (RGPD), vous disposez, lorsque les conditions
+    prévues par la réglementation sont réunies, de droits concernant les données
+    personnelles faisant l'objet d'un traitement.
+</p>
+
+<p>
+    Vous pouvez notamment :
+</p>
+
+<ul>
+    <li>refuser les statistiques Firebase Analytics ;</li>
+    <li>retirer ultérieurement votre accord Analytics ;</li>
+    <li>modifier vos choix publicitaires lorsque les options UMP sont disponibles ;</li>
+    <li>refuser ou retirer l'autorisation Android de géolocalisation ;</li>
+    <li>désactiver la Surveillance carburant ;</li>
+    <li>
+        demander, lorsque cela est applicable, l'accès, la rectification,
+        l'effacement ou la limitation de données personnelles vous concernant ;
+    </li>
+    <li>contacter Pixelcaux pour toute question relative à la confidentialité.</li>
+</ul>
+
+<p>
+    Pour exercer vos droits ou poser une question :
+    <a href="mailto:contact@pixelcaux.com">contact@pixelcaux.com</a>
+</p>
+
+<p>
+    Vous disposez également du droit d'introduire une réclamation auprès de la
+    <strong>Commission nationale de l'informatique et des libertés (CNIL)</strong>.
+</p>
+
+<p>
+    Site de la CNIL :
+    <a href="https://www.cnil.fr/"
+       target="_blank"
+       rel="noopener noreferrer">
+        www.cnil.fr
+    </a>
+</p>
+
+
+<h2>9. Services tiers et sources utilisés</h2>
+
+<ul>
+
+    <li>
+        <strong>Google</strong> — Firebase Analytics, Google AdMob et UMP :
         <a href="https://policies.google.com/privacy"
            target="_blank"
            rel="noopener noreferrer">
             Politique de confidentialité de Google
-        </a>.
-    </p>
+        </a>
+    </li>
+
+    <li>
+        <strong>data.economie.gouv.fr</strong> — données publiques relatives
+        notamment aux stations-service :
+        <a href="https://data.economie.gouv.fr/"
+           target="_blank"
+           rel="noopener noreferrer">
+            data.economie.gouv.fr
+        </a>
+    </li>
+
+    <li>
+        <strong>IGN ROUTE500</strong> — données routières et géographiques
+        utilisées pour générer le fond cartographique local.
+    </li>
+
+    <li>
+        <strong>Natural Earth</strong> — données géographiques utilisées pour
+        certains éléments du fond cartographique local.
+    </li>
+
+    <li>
+        <strong>OpenStreetMap / Overpass</strong> — certaines recherches de
+        stations, bornes ou éléments géographiques :
+        <a href="https://www.openstreetmap.org/"
+           target="_blank"
+           rel="noopener noreferrer">
+            openstreetmap.org
+        </a>
+    </li>
+
+    <li>
+        <strong>Nominatim / OpenStreetMap</strong> — géocodage de villes et
+        d'adresses :
+        <a href="https://nominatim.org/"
+           target="_blank"
+           rel="noopener noreferrer">
+            nominatim.org
+        </a>
+    </li>
+
+    <li>
+        <strong>OSRM</strong> — calcul de certains itinéraires :
+        <a href="https://project-osrm.org/"
+           target="_blank"
+           rel="noopener noreferrer">
+            project-osrm.org
+        </a>
+    </li>
+
+</ul>
 
 
-    <h2>6. Achats intégrés et paiements</h2>
+<h2>10. Non-affiliation</h2>
 
-    <p>
-        Les achats intégrés proposés par Karbu France, notamment lorsqu'ils permettent
-        de supprimer les publicités, sont traités par <strong>Google Play</strong>.
-    </p>
+<p>
+    Karbu France est une application indépendante.
+</p>
 
-    <p>
-        Pixelcaux ne reçoit et ne stocke aucune donnée bancaire, aucun numéro de carte
-        bancaire ni aucune information de paiement complète.
-    </p>
+<p>
+    Elle n'est pas affiliée au Gouvernement français, à une administration
+    ou à une autorité publique.
+</p>
 
-    <p>
-        Lorsque Firebase Analytics est activé avec votre consentement, certaines informations
-        techniques relatives à l'utilisation des fonctionnalités ou aux achats peuvent
-        être mesurées à des fins statistiques. Aucune donnée bancaire complète n'est envoyée
-        à Firebase Analytics par Karbu France.
-    </p>
+<p>
+    Certaines données utilisées par l'application proviennent néanmoins de
+    sources publiques officielles françaises.
+</p>
 
 
-    <h2>7. Base du traitement et consentement</h2>
+<h2>11. Modification de cette politique</h2>
 
-    <p>
-        Lorsque Firebase Analytics nécessite votre consentement, celui-ci constitue la base
-        permettant l'activation de cette collecte statistique.
-    </p>
+<p>
+    Cette politique peut être modifiée lorsque les fonctionnalités,
+    les prestataires, les traitements ou les obligations applicables à
+    Karbu France évoluent.
+</p>
 
-    <p>
-        Vous pouvez retirer ce consentement à tout moment depuis les paramètres de
-        l'application. Le retrait du consentement désactive la collecte Analytics pour
-        les événements futurs.
-    </p>
-
-    <p>
-        Le fonctionnement de la géolocalisation dépend quant à lui de l'autorisation Android
-        accordée afin de fournir les fonctionnalités demandées utilisant votre position.
-    </p>
+<p>
+    La date affichée en haut de cette page permet d'identifier la version
+    actuellement publiée.
+</p>
 
 
-    <h2>8. Stockage local et conservation</h2>
+<h2>12. Contact</h2>
 
-    <p>
-        Karbu France utilise différents stockages locaux sur votre appareil afin de
-        conserver certains réglages et certaines fonctionnalités, notamment les favoris,
-        des préférences utilisateur, l'état de certains consentements et certaines données
-        nécessaires au fonctionnement de l'application.
-    </p>
+<p>
+    Pour toute question concernant cette politique ou la protection des données :
+</p>
 
-    <p>
-        Lorsque la Surveillance carburant est active, la zone précise nécessaire à cette
-        fonctionnalité est conservée localement. Elle est supprimée lorsque la Surveillance
-        carburant est désactivée.
-    </p>
-
-    <p>
-        Karbu France ne constitue pas d'historique continu de votre position ou de vos
-        déplacements.
-    </p>
-
-
-    <h2>9. Conservation et sécurité</h2>
-
-    <p>
-        Pixelcaux applique un principe de minimisation des données et limite les informations
-        envoyées aux services tiers à ce qui est nécessaire au fonctionnement, à la mesure
-        ou à la monétisation de Karbu France.
-    </p>
-
-    <p>
-        Les prestataires tiers tels que Google, OpenStreetMap ou les services de routage
-        peuvent appliquer leurs propres mécanismes et durées de conservation conformément
-        à leurs politiques de confidentialité, à leurs obligations légales et aux choix de
-        l'utilisateur.
-    </p>
-
-
-    <h2>10. Vos droits</h2>
-
-    <p>
-        Conformément à la réglementation applicable en matière de protection des données,
-        notamment le Règlement général sur la protection des données (RGPD), vous pouvez
-        demander des informations concernant les données susceptibles d'être traitées
-        dans le cadre de l'utilisation de Karbu France.
-    </p>
-
-    <p>
-        Vous pouvez notamment :
-    </p>
-
-    <ul>
-        <li>refuser Firebase Analytics ;</li>
-        <li>retirer ultérieurement votre consentement Analytics ;</li>
-        <li>modifier vos préférences publicitaires lorsque cette option est disponible ;</li>
-        <li>refuser ou retirer l'autorisation Android de géolocalisation ;</li>
-        <li>désactiver la Surveillance carburant afin de supprimer sa zone enregistrée ;</li>
-        <li>contacter Pixelcaux pour toute demande relative à la confidentialité.</li>
-    </ul>
-
-    <p>
-        Contact :
-        <a href="mailto:contact@pixelcaux.com">contact@pixelcaux.com</a>
-    </p>
-
-
-    <h2>11. Services tiers</h2>
-
-    <p>
-        Karbu France utilise plusieurs services tiers nécessaires à son fonctionnement,
-        à sa mesure d'audience ou à sa monétisation.
-    </p>
-
-    <ul>
-        <li>
-            <strong>Google</strong> — Firebase Analytics, AdMob et Google Play :
-            <a href="https://policies.google.com/privacy"
-               target="_blank"
-               rel="noopener noreferrer">
-                Politique de confidentialité de Google
-            </a>
-        </li>
-
-        <li>
-            <strong>data.economie.gouv.fr</strong> — données publiques relatives
-            notamment aux stations-service :
-            <a href="https://data.economie.gouv.fr/"
-               target="_blank"
-               rel="noopener noreferrer">
-                data.economie.gouv.fr
-            </a>
-        </li>
-
-        <li>
-            <strong>OpenStreetMap / Overpass</strong> — recherche de stations et
-            de points d'intérêt :
-            <a href="https://www.openstreetmap.org/"
-               target="_blank"
-               rel="noopener noreferrer">
-                openstreetmap.org
-            </a>
-        </li>
-
-        <li>
-            <strong>Nominatim / OpenStreetMap</strong> — géocodage de villes et
-            d'adresses :
-            <a href="https://nominatim.org/"
-               target="_blank"
-               rel="noopener noreferrer">
-                nominatim.org
-            </a>
-        </li>
-
-        <li>
-            <strong>OSRM</strong> — calcul de certains itinéraires :
-            <a href="https://project-osrm.org/"
-               target="_blank"
-               rel="noopener noreferrer">
-                project-osrm.org
-            </a>
-        </li>
-    </ul>
-
-
-    <h2>12. Non-affiliation</h2>
-
-    <p>
-        Karbu France est une application indépendante.
-        Elle n'est pas affiliée au gouvernement français ni à une autorité publique.
-    </p>
-
-    <p>
-        Certaines données utilisées par l'application proviennent néanmoins de sources
-        publiques officielles françaises.
-    </p>
-
-
-    <h2>13. Modification de cette politique</h2>
-
-    <p>
-        Cette politique de confidentialité peut être mise à jour lorsque les fonctionnalités
-        de Karbu France, ses prestataires ou les traitements de données évoluent.
-    </p>
-
-    <p>
-        La date de dernière mise à jour indiquée en haut de cette page permet d'identifier
-        la version actuellement applicable.
-    </p>
-
-
-    <h2>14. Contact</h2>
-
-    <p>
-        Pour toute question concernant cette politique de confidentialité ou vos données :
-    </p>
-
-    <p>
-        <strong>Pixelcaux</strong><br>
-        France<br>
-        <a href="mailto:contact@pixelcaux.com">contact@pixelcaux.com</a>
-    </p>
+<p>
+    <strong>[NOM LÉGAL À COMPLÉTER]</strong><br>
+    Entrepreneur individuel — Pixelcaux<br>
+    France<br>
+    <a href="mailto:contact@pixelcaux.com">contact@pixelcaux.com</a>
+</p>
 
 </body>
 </html>
